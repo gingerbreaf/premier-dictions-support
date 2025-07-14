@@ -26,5 +26,5 @@ window.addEventListener('scroll', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const yearSpan = document.querySelector('footer p');
     const currentYear = new Date().getFullYear();
-    yearSpan.innerHTML = `&copy; ${currentYear} Messey. All rights reserved.`;
+    yearSpan.innerHTML = `&copy; ${currentYear} Premier-Dictions. All rights reserved.`;
 }); 
